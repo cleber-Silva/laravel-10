@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>contato</p>
+    <p>Contato para nova Aplicacao Laravel</p>
 </body>
 </html>
